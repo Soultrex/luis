@@ -1,0 +1,64 @@
+html body {
+    font-size: 20px;
+    padding: 0;
+    background-color:#E6EDF9;
+    font-family: arial, sans-serif;
+    color: #0EB4E2;
+}
+/*h1 { margin: 0px 0px 1em 0px; color: #076d6f; font-size: 1.7em; }
+h3 { margin: 0px 0px 1.5em 0px; color: #339999; font-size: 1.1em; font-weight: normal; letter-spacing: 2px; text-transform: uppercase; }*/
+
+div#main { 
+    font-size: 65px;
+	color: #0EB4E2;
+	padding: 15px 20px 10px 270px;
+    padding-left: 260px;
+}
+
+nav { background-color: rgba(0,0,0,.6); position: absolute;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgba(0,0,0,0.6); /*color fondo menú*/
+	border: 1px solid #fff;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+    border-radius: 25px;
+}
+
+li {
+	text-align: center;
+    border-bottom: 1px solid #fff;
+	background-color: #227BB3; /*color botones 2,3,4,5*/
+    border-radius: 25px;
+    margin:5px 0px 0px 0px;
+}
+
+li a {
+    display: block;
+    color: #000; /*color textos botones 2,3,4,5*/
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(30,60,60,0.8);
+    color: white;
+    border-radius: 25px;
+}
+
+.active {
+    position:relative;
+	background-color: #235F85; /*color boton 1*/
+	color: white; /*color texto boton 1*/
+    border-radius: 25px;
+}
+
+nav > ul > li > a { 
+    padding: 10px 20px 15px 20px; 
+    width: auto;
+}

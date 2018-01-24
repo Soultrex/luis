@@ -1,0 +1,430 @@
+
+html, body{
+	background-color:transparent;
+	font-family: arial, sans-serif;
+	color: #0EB4E2;
+	position:relative;
+
+}
+
+img, h1{
+	display: inline-block;
+	position:absolute;
+
+
+}
+
+container{
+	position:relative;
+	background: Transparent;
+	width:90%;
+	margin: 0 auto;
+	display: block;
+}
+
+#pelotaLuis{
+	display: inline-block;
+	animation:animarPelotaLuis 16s infinite ease-in-out;
+	-webkit-animation:animarPelotaLuis 14s infinite ease-in-out;
+	position: absolute;
+	border-style:solid;
+	border-color: #32CD32;
+	border-width:15px 15px 15px 15px; /*Estas son las dimenciones de los bordes (horden horario)*/
+	height: 0px; /*Este es el alto del espacio de en medio*/
+	border-radius: 60px;
+}
+#pelotaMaria{
+	display: inline-block;
+	animation:animarPelotaMaria 12s infinite ease-in-out;
+	-webkit-animation:animarPelotaMaria 19s infinite ease-in-out;
+	position: absolute;
+	border-style:solid;
+	border-color: #32CD32;
+	border-width:15px 15px 15px 15px; /*Estas son las dimenciones de los bordes (horden horario)*/
+	height: 0px; /*Este es el alto del espacio de en medio*/
+	border-radius: 15px;
+}
+#pelotaJose{
+	display: inline-block;
+	animation:animarPelotaJose 18s infinite ease-in-out;
+	-webkit-animation:animarPelotaJose 16s infinite ease-in-out;
+	position: absolute;
+	border-style:solid;
+	border-color: #32CD32;
+	border-width:15px 15px 15px 15px; /*Estas son las dimenciones de los bordes (horden horario)*/
+	height: 0px; /*Este es el alto del espacio de en medio*/
+	border-radius: 10px;
+}
+
+#pelotaD{
+	display: inline-block;
+	animation:animarPelotaD 22s infinite ease-in-out;
+	-webkit-animation:animarPelotaD 23s infinite ease-in-out;
+	position: absolute;
+	border-style:solid;
+	border-color: #32CD32;
+	border-width:15px 15px 15px 15px;
+	height: 0px; 
+	border-radius: 35px;
+}
+#pelotaE{
+	display: inline-block;
+	animation:animarPelotaE 21s infinite ease-in-out;
+	-webkit-animation:animarPelotaE 34s infinite ease-in-out;
+	position: absolute;
+	border-style:solid;
+	border-color: #32CD32;
+	border-width:15px 15px 15px 15px; 
+	height: 0px; 
+	border-radius: 20px;
+}
+#pelotaF{
+	display: inline-block;
+	animation:animarPelotaF 24s infinite ease-in-out;
+	-webkit-animation:animarPelotaF 22s infinite ease-in-out;
+	position: absolute;
+	border-style:solid;
+	border-color: #32CD32;
+	border-width:15px 15px 15px 15px; 
+	height: 0px; 
+	border-radius: 15px;
+}
+#pelotaG{
+	display: inline-block;
+	animation:animarPelotaG 26s infinite ease-in-out;
+	-webkit-animation:animarPelotaG 19s infinite ease-in-out;
+	position: absolute;
+	border-style:solid;
+	border-color: #32CD32;
+	border-width:15px 15px 15px 15px; 
+	height: 0px; 
+	border-radius: 35px;
+}
+#pelotaH{
+	display: inline-block;
+	animation:animarPelotaH 28s infinite ease-in-out;
+	-webkit-animation:animarPelotaH 20s infinite ease-in-out;
+	position: absolute;
+	border-style:solid;
+	border-color: #32CD32;
+	border-width:15px 15px 15px 15px; 
+	height: 0px; 
+	border-radius: 9px;
+}
+#pelotaI{
+	display: inline-block;
+	animation:animarPelotaI 26s infinite ease-in-out;
+	-webkit-animation:animarPelotaI 26s infinite ease-in-out;
+	position: absolute;
+	border-style:solid;
+	border-color: #32CD32;
+	border-width:15px 15px 15px 15px;
+	height: 0px; 
+	border-radius: 30px;
+}
+#pelotaJ{
+	display: inline-block;
+	animation:animarPelotaJ 24s infinite ease-in-out;
+	-webkit-animation:animarPelotaJ 21s infinite ease-in-out;
+	position: absolute;
+	border-style:solid;
+	border-color: #32CD32;
+	border-width:15px 15px 15px 15px;
+	height: 0px;
+	border-radius: 27px;
+}
+
+.logoIsc{
+	display: inline-block;
+	-webkit-animation:rotate 30s infinite ease-in-out;
+	-moz-animation:rotate 30s infinite ease-in-out;
+	-o-animation:rotate 30s infinite ease-in-out;
+	-ms-animation:rotate 30s infinite ease-in-out;
+    padding: 0;
+    width: 60px;
+    background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	overflow: auto;
+	border-style:solid;
+	border-color: #32CD32 #FFD700 #2890EC #FF7F50;
+	border-width:5px 5px 5px 5px;
+	height: 60px;
+	margin:17px 0px 0px -10px;
+	border-radius: 60px;5
+}
+
+
+@-webkit-keyframes animarPelotaLuis{
+	0%{
+		top:1050px;left:120px;
+		border-width:5px 5px 5px 5px;
+		border-color: #A9E2F3;
+	}
+	50%{
+		top: 1100px;left:1180px;
+		border-width:15px 15px 15px 15px;
+		border-color: #3B0B24;
+	}
+	25%{
+		top: 7px;left:8px;
+		border-width:3px 3px 3px 3px;
+		border-color: #A9E2F3;
+	}
+	100%{
+		top:1050px;left:120px;
+		border-width:5px 5px 5px 5px;
+		border-color: #A9E2F3;
+	}
+}
+
+@-webkit-keyframes animarPelotaMaria{
+	0%{
+		top:20px;left:950px;
+		border-width:15px 15px 15px 15px;
+		border-color: #FAAC58;
+	}
+	50%{
+		top: 722px;left:388px;
+		border-width:4px 4px 4px 4px;
+		border-color: #B4045F;
+	}
+	25%{
+		top: 7px;left:8px;
+		border-width:3px 3px 3px 3px;
+		border-color: #A9E2F3;
+	}
+	100%{
+		top:20px;left:950px;
+		border-width:15px 15px 15px 15px;
+		border-color: #FAAC58;
+	}
+}
+
+@-webkit-keyframes animarPelotaJose{
+	0%{
+		top: 222px;left:888px;
+		border-width:15px 15px 15px 15px;
+		border-color: #2A120A;
+	}
+	50%{
+		top:620px;left:1150px;
+		border-width:6px 6px 6px 6px;
+		border-color: #2EFE64;
+	}
+	25%{
+		top: 7px;left:8px;
+		border-width:3px 3px 3px 3px;
+		border-color: #A9E2F3;
+	}
+	100%{
+		top: 222px;left:888px;
+		border-width:15px 15px 15px 15px;
+		border-color: #2A120A;
+	}
+}
+
+@-webkit-keyframes animarPelotaD{
+	0%{
+		top:150px;left:200px;
+		border-width:5px 5px 5px 5px;
+		border-color: #088A85;
+	}
+	50%{
+		top: 740px;left:710px;
+		border-width:15px 15px 15px 15px;
+		border-color: #F8E0E6;
+	}
+	25%{
+		top: 7px;left:8px;
+		border-width:3px 3px 3px 3px;
+		border-color: #A9E2F3;
+	}
+	100%{
+		top:150px;left:200px;
+		border-width:5px 5px 5px 5px;
+		border-color: #088A85;
+	}
+}
+
+@-webkit-keyframes animarPelotaE{
+	0%{
+		top:300px;left:300px;
+		border-width:5px 5px 5px 5px;
+		border-color: #FE9A2E;
+	}
+	50%{
+		top: 1100px;left:1100px;
+		border-width:15px 15px 15px 15px;
+		border-color: #585858;
+	}
+	25%{
+		top: 7px;left:8px;
+		border-width:3px 3px 3px 3px;
+		border-color: #A9E2F3;
+	}
+	100%{
+		top:300px;left:300px;
+		border-width:5px 5px 5px 5px;
+		border-color: #FE9A2E;
+	}
+}
+
+@-webkit-keyframes animarPelotaF{
+	0%{
+		top:1150px;left:60px;
+		border-width:5px 5px 5px 5px;
+		border-color: #8904B1;
+	}
+	50%{
+		top: 1280px;left:1720px;
+		border-width:15px 15px 15px 15px;
+		border-color: #0489B1;
+	}
+	25%{
+		top: 7px;left:8px;
+		border-width:3px 3px 3px 3px;
+		border-color: #A9E2F3;
+	}
+	100%{
+		top:1150px;left:60px;
+		border-width:5px 5px 5px 5px;
+		border-color: #8904B1;
+	}
+}
+
+@-webkit-keyframes animarPelotaG{
+	0%{
+		top:320px;left:1100px;
+		border-width:5px 5px 5px 5px;
+		border-color: #DF0101;
+	}
+	50%{
+		top: 90px;left:1170px;
+		border-width:15px 15px 15px 15px;
+		border-color: #045FB4;
+	}
+	25%{
+		top: 7px;left:8px;
+		border-width:3px 3px 3px 3px;
+		border-color: #A9E2F3;
+	}
+	100%{
+		top:320px;left:1100px;
+		border-width:5px 5px 5px 5px;
+		border-color: #DF0101;
+	}
+}
+
+@-webkit-keyframes animarPelotaH{
+	0%{
+		top:20px;left:40px;
+		border-width:5px 5px 5px 5px;
+		border-color: #FBEFFB;
+	}
+	50%{
+		top: 100px;left:700px;
+		border-width:15px 15px 15px 15px;
+		border-color: #04B486;
+	}
+	25%{
+		top: 7px;left:8px;
+		border-width:3px 3px 3px 3px;
+		border-color: #A9E2F3;
+	}
+	100%{
+		top:20px;left:40px;
+		border-width:5px 5px 5px 5px;
+		border-color: #FBEFFB;
+	}
+}
+
+@-webkit-keyframes animarPelotaI{
+	0%{
+		top:420px;left:112px;
+		border-width:5px 5px 5px 5px;
+		border-color: #8A0829;
+	}
+	50%{
+		top: 800px;left:1100px;
+		border-width:15px 15px 15px 15px;
+		border-color: #CEF6CE;
+	}
+	25%{
+		top: 7px;left:8px;
+		border-width:3px 3px 3px 3px;
+		border-color: #A9E2F3;
+	}
+	100%{
+		top:420px;left:112px;
+		border-width:5px 5px 5px 5px;
+		border-color: #8A0829;
+	}
+}
+
+@-webkit-keyframes animarPelotaJ{
+	0%{
+		top:300px;left:50px;
+		border-width:5px 5px 5px 5px;
+		border-color: #F5A9A9;
+	}
+	50%{
+		top: 100px;left:40px;
+		border-width:30px 30px 30px 30px;
+		border-color: #0B0B61;
+	}
+	25%{
+		top: 7px;left:8px;
+		border-width:3px 3px 3px 3px;
+		border-color: #A9E2F3;
+	}
+	100%{
+		top:300px;left:50px;
+		border-width:5px 5px 5px 5px;
+		border-color: #F5A9A9;
+	}
+}
+
+
+
+
+
+
+
+@-webkit-keyframes rotate{
+	0%{-webkit-transform:rotateZ(-5760deg);
+	}
+	50%{-webkit-transform:rotateZ(0deg);
+	}
+	100%{-webkit-transform:rotateZ(-5760deg);
+	}
+}
+/*compatibilidad con mozilla*/
+@-moz-keyframes rotate{
+	0%{-moz-transform:rotateZ(-5760deg);
+	}
+	50%{-moz-transform:rotateZ(0deg);
+	}
+	100%{-webkit-transform:rotateZ(-5760deg);
+	}
+}
+/*compatibilidad con Opera*/
+@-o-keyframes rotate{
+	0%{-o-transform:rotateZ(-5760deg);
+	}
+	50%{-o-transform:rotateZ(0deg);
+	}
+	100%{-webkit-transform:rotateZ(-5760deg);
+	}
+}
+/*compatibilidad con Explorer*/
+@-ms-keyframes rotate{
+	0%{-ms-transform:rotateZ(-1440deg);
+	}
+	100%{-ms-transform:rotateZ(0deg);
+	}
+}
+
+
+
+
+
