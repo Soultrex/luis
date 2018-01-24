@@ -14,11 +14,12 @@ div#main {
   position:relative;
   background-color: Transparent;
   font-family: arial, sans-serif;
+
 }
 
 .lista{
   text-align: left;
-  font-size: 15px;
+  font-size: 115px;
 }
 .referencias{
   font-size: small;
@@ -26,33 +27,25 @@ div#main {
 
 .titulo {
   position:relative;
-  border: orange solid 4px;
-  border-bottom: orange solid 2px;
-  border-bottom-style: dashed;
   border-top: none;
   text-decoration: underline;
-  font-size: 40px;
-  padding: 20px;
-  box-sizing: border-box;
+  font-size: 50px;
+  padding: center;
+  box-sizing: 0px;
   text-align: center;
   width: 80%;
   float: right;
-  background-color: rgba(0,0,0,0.8);
+  background-color: transparent;
 }
 
 .texto {
-  position:relative;
-  border-left: orange solid 4px;
-  border-right: orange solid 4px;
-  color: white;
-  text-align: center;
-  padding: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
-  box-sizing: border-box;
-  width: 80%;
+  position:absolute;
+  color: black;
+  background-color: transparent;
+  padding: center;
   float: right;
-  height: auto;
-  background-color: rgba(0,0,0,0.8);
+  padding-right: 7%;
+  padding-left: 190px;
+  padding-top: 420px;
 }
-*/
+

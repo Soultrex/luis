@@ -150,8 +150,38 @@ container{
 	border-width:5px 5px 5px 5px;
 	height: 60px;
 	margin:17px 0px 0px -10px;
-	border-radius: 60px;5
+	border-radius: 60px;
 }
+
+#rotacion{
+	position:absolute;
+	width: 255px;
+	height: 300px;
+	background-image: url(yo.png);
+	-webkit-animation:animarImagen 5s infinite ease-in-out;
+	position: absolute;
+}
+
+
+@-webkit-keyframes animarImagen{
+	0%{
+		top:200px;left:600px;
+		border-width:255px;
+		border-radius: 93px;
+	}
+	50%{
+		top:190px;left:600px;
+		border-width:255px;
+		border-radius: 160px;
+		
+	}
+	100%{
+		top:200px;left:600px;
+		border-width:300px;
+		border-radius: 93px;
+	}
+}
+
 
 
 @-webkit-keyframes animarPelotaLuis{
